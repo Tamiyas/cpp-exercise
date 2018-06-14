@@ -3,9 +3,9 @@
 
 int main()
 {
-  Dog dog;
+  Dog dog("はなこ");
   dog.cry();
 
-  Cat cat;
+  Cat cat("モモ");
   cat.cry();
 }
