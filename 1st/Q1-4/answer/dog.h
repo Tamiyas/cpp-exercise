@@ -8,7 +8,7 @@ class Dog {
     std::string name;
     int age;
   public:
-    Dog() { }
+    Dog() : name(""), age(0) { }
     explicit Dog(std::string name_, int age_)
       : name(name_), age(age_) { }
     void profile();
