@@ -8,7 +8,7 @@ class Book {
     std::string title;
     Price price;
   public:
-    Book() { }
+    Book() : title(""), price(0) { }
     explicit Book(std::string title_, Price& price_)
       : title(title_), price(price_) { }
     std::string getTitle();

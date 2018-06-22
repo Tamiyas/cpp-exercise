@@ -5,7 +5,7 @@ class Price {
   private:
     int price;
   public:
-    Price() { }
+    Price() : price(0) { }
     explicit Price(int price_) : price(price_) { }
     int get();
 };
